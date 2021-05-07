@@ -17,7 +17,7 @@ class App extends Component {
       .then((json) => {
         this.setState({
           isLoaded: true,
-          items: json.data.timelines[1].intervals,
+          items: json.body.data.timelines[0].intervals,
         });
       });
   }
