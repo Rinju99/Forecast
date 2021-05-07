@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import moment from "moment";
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -46,7 +47,6 @@ class App extends Component {
               </div>
             ))}
           </div>{" "}
-          .
         </div>
       );
     }
