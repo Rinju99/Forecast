@@ -30,7 +30,7 @@ class App extends Component {
     } else {
       return (
         <div className="main">
-          <h1>❄ 10 Day forecast 🌥</h1>
+          <h1>❄ Weather forecast 🌥</h1>
           <div className="Weather">
             {items.map((i) => (
               <div key={i.startTime} className="each">
