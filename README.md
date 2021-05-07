@@ -1,1 +1,1 @@
-# Structure
+# A Weather Forecast Application
