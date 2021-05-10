@@ -10,8 +10,8 @@ class App extends Component {
       items: [],
     };
   }
-  async componentDidMount() {
-    await fetch(
+  componentDidMount() {
+    fetch(
       "https://bg7p7w7pxd.execute-api.us-east-2.amazonaws.com/forecast/forecast"
     )
       .then((res) => res.json())
