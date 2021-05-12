@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import moment from "moment";
 
-class App extends Component {
+export default class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -52,5 +52,3 @@ class App extends Component {
     }
   }
 }
-
-export default App;
